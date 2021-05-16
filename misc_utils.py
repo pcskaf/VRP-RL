@@ -305,7 +305,7 @@ def get_config_proto(log_device_placement=False, allow_soft_placement=True):
 
 def check_tensorflow_version():
     if tf.__version__ < "1.2.1":
-        raise EnvironmentError("Tensorflow version must >= 1.2.1")
+        raise EnvironmentError("tensorflow version must >= 1.2.1")
 
 def debug_tensor(s, msg=None, summarize=10):
     """Print the shape and value of a tensor at test time. Return a new tensor."""

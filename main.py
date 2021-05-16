@@ -10,6 +10,8 @@ from configs import ParseParams
 from shared.decode_step import RNNDecodeStep
 from model.attention_agent import RLAgent
 
+
+
 def load_task_specific_components(task):
     '''
     This function load task-specific libraries
